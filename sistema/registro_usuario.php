@@ -13,13 +13,7 @@
 <body>
     <?php include "includes/header.php";?>
     <section id="container">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-        <div class="container">
+<div class="container">
     <div class="row m-5 no-gutters shadow-lg">
       
         <div class="col-md-12 bg-white p-5">
@@ -56,8 +50,8 @@
                     <div class="pb-2">
                         <input type="submit" name="registras" class="btn btn-success w-100 font-weight-bold mt-2" value="Crear Usuario">
                     </div>
-                </form>
-             </div>
+                </form><!-- hola-->
+            </div>
         </div>
     </div>
 </div>

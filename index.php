@@ -79,10 +79,7 @@ if(!empty($_SESSION['active']))
         </form>
 
                 
-                
-                
-             </div>
-        </form>
-
+                            
+    </div>
 </body>
 </html>
