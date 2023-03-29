@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(to bottom, #4B0082, #4169E1);
+    background: linear-gradient(to bottom, #3f006c, #193da7);
+    backdrop-filter: blur(10px);
 }
 
 .container {
