@@ -8,8 +8,7 @@
 
 	<header>
 		<div class="header">
-			
-			<h1>Sistema de Ventas</h1>
+			<h2>SISTEMA DE VENTAS</h2>
 			<div class="optionsBar">
 				<p>República Dominicana, Santo Domingo Este
 				</p>
