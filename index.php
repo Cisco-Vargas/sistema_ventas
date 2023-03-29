@@ -37,7 +37,7 @@ if(!empty($_SESSION['active']))
 
                 header('Location: sistema/');
             }else{
-                $alerta = 'Usuario o la contraseña son icorrecto';
+                $alerta = 'El usuario o la contraseña son incorrectos';
                 session_destroy();
             }
         }
