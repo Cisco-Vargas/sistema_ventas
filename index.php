@@ -76,9 +76,7 @@ if(!empty($_SESSION['active']))
             <br>
             <input name="sesion" type="submit" value="Iniciar sesión" class="boton3">
             
-        </form>
-        <p>CAGA MIERDA</p>
-                
+        </form> 
                 
                 
              </div>
