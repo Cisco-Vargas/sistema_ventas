@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="SistemaVentas\sistema\css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <?php include "includes/scripts.php"; ?>
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
 </head>
@@ -21,10 +17,8 @@
     <br>
     <div class="container">
         <div class="row m-5 no-gutters shadow-lg">
-        
             <div class="col-md-12 bg-white p-5">
                 <center>
-
                     <h3 class="pb-3">Registro Proveedor</h3>
                 </center>
                 <div>
@@ -53,6 +47,6 @@
         </div>
     </div>
 
-    
+<?php include "includes/footer.php";?>   
 </body>
 </html>
