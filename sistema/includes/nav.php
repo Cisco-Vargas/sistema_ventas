@@ -35,6 +35,6 @@
 					<ul>
 						<li><a href="crear_factura.php">Nuevo Factura</a></li>
 						<li><a href="tabla_factura.php">Facturas</a></li>
-				
+					</ul>
 			</ul>
-		</nav>
+</nav>

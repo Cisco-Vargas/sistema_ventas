@@ -9,7 +9,7 @@
 	<header>
 		<div class="header">
 			
-			<h1>Sistema</h1>
+			<h1>Sistema de Ventas</h1>
 			<div class="optionsBar">
 				<p>República Dominicana, Santo Domingo Este
 				</p>

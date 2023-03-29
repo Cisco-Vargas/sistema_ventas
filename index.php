@@ -37,7 +37,7 @@ if(!empty($_SESSION['active']))
 
                 header('Location: sistema/');
             }else{
-                $alerta = 'Usuario o la contraseña son icorrecto';
+                $alerta = 'El usuario o la contraseña son incorrectos';
                 session_destroy();
             }
         }
@@ -50,37 +50,24 @@ if(!empty($_SESSION['active']))
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css\login.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
     <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
-<div>
-        <h1 class="Titulo"> Iniciar Sesión </h1>
-</div>
 <body>
-
-
-
-    <div class="formbody">
-        <img src="img/images1.png" alt="user-login">
-        <p class="text"> </p>
-        <form method="post" action="" class="login-form">
-
-            <input type="text" name="usuario" placeholder="Usuario" class="campos"  >
-            
-            <input name="pass" type="password" placeholder="Contraseña" class="campos" id="contris2" >
-            <center>
-            <div class="alerta"><?php echo isset($alerta) ? $alerta : ''; ?> </div>
-            </center>
-            <br>
-            <input name="sesion" type="submit" value="Iniciar sesión" class="boton3">
-            
-        </form> 
-                
-                
-             </div>
-        </form>
-
+    <div class="container">
+        <div class="formbody">
+            <h1 class="Titulo">Iniciar Sesión</h1>
+            <img src="img/images1.png" alt="user-login" class="img-login">
+            <form method="post" action="" class="login-form">
+                <input type="text" name="usuario" placeholder="Usuario" class="campos">
+                <input name="pass" type="password" placeholder="Contraseña" class="campos" id="contris2">
+                <center>
+                    <div class="alerta"><?php echo isset($alerta) ? $alerta : ''; ?></div>
+                </center>
+                <input name="sesion" type="submit" value="Iniciar sesión" class="boton3">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
