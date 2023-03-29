@@ -29,7 +29,7 @@
            header('Location: sistema/');
         
         }else{
-            echo $alerta = 'Usuario o la contraseña son icorrecto';
+            echo $alerta = 'Usuario o la contraseña son incorrectos';
             
         }
         
