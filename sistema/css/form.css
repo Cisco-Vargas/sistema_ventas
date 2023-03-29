@@ -21,7 +21,7 @@
 }
 
 .styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+    background-color: #a07272;
 }
 
 .styled-table tbody tr:last-of-type {
@@ -32,11 +32,21 @@
     font-weight: bold;
     color: #b43030;
 }
-
-.alert
-{
+.alerta{
     width: 100%;
     background: #66e07d66;
     border-radius: 6px;
-    margin: 20px aunto;
+    margin: 20px auto;
+}
+
+.msg_error{
+    color: #e65656;
+}
+
+.msg_save {
+    color: #126e00;
+}
+
+.alerta{
+    padding: 10px;
 }
