@@ -1,3 +1,28 @@
+<?php
+include ("../conexion.php");
+
+// Si se ha enviado el formulario
+if(isset($_POST['registras'])) {
+
+  // Obtener los datos del formulario
+  $codproducto = $_POST['codproducto'];
+  $descripcion = $_POST['descripcion'];
+  $proveedor = $_POST['proveedor'];
+  $precio = $_POST['precio'];
+  $existencia = $_POST['existencia'];
+
+  // Insertar los datos en la tabla "producto"
+  $sql = "INSERT INTO producto (codproducto, descripcion, proveedor, precio, existencia) VALUES ('$codproducto', '$descripcion', '$proveedor', '$precio', '$existencia')";
+
+  if ($conn->query($sql) === TRUE) {
+    echo "Producto registrado correctamente";
+  } else {
+    echo "Error al registrar producto: " . $conn->error;
+  }
+  
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
