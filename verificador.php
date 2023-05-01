@@ -40,7 +40,7 @@
     /*include ('conexion.php');
     $user = $_POST['usuario'];
     $pass = $_POST['pass'];
-
+m,,sfdfl,fasdfsadf.................................................................................y
     $consulta = "SELECT * FROM usuario WHERE usuario=$user AND clave=$pass";
     $ejecucion = mysqli_query($conexion,$consulta);
     if($ejecucion) {   
